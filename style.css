@@ -1,0 +1,282 @@
+body{
+
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: gray;
+}
+nav{
+    
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: gray;
+    padding: 10px;
+    box-shadow: 0px 4px 7px 4px rgb(35, 33, 33);
+    width: 100%; 
+    top: 0%;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+    margin-inline:30px;
+}
+nav button{
+    width: 80px;
+    height: 28px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 2px;
+    border: none;
+    
+}
+nav button:hover{
+    border: 2px solid red;
+    background-color: transparent;
+}
+nav ul{
+    margin-right: 33px;
+
+}
+.logo{
+    margin-left: 22px;
+}
+.logo h1{
+    position: absolute;
+    top: -8px;
+    font-size: 33px;
+    font-family: cursive;
+    color: red;
+    border-radius: 11%;
+    border-bottom: 3px solid red;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid red;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.main{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 175px;
+
+}
+.main .maintext h1{
+    font-family: "Jaini Purva", system-ui;
+    font-size : 77px;    
+}
+.maintext h2{
+    font-size: 33px; 
+    color: rgb(0, 64, 255);   
+}
+.maintext p{
+    color: silver;    
+}
+.maintext button{
+   /* width: 38px;
+    height:40px;
+    */
+    
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    font-size: 20px;
+}
+.maintext button a{
+    text-decoration: none;
+    color: white;
+}
+.maintext button:hover{
+    
+    border: 3px solid red;
+    background-color: transparent;
+    cursor:pointer;
+}
+.main img{
+    width: 600px;
+}
+.head{
+    text-align: center;
+    margin-top : 45px ;
+    padding: 7  5px ;
+}
+.head span{
+    color: rgb(255, 0, 0);
+} 
+.card{
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+    
+}
+.card .crd{
+  
+    width: 300px;
+    margin-inline: 22px;
+    background-color: darkgray;
+    color: black;
+}
+.crd h2{
+    text-align: center;
+}
+.foodtext button{
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    font-size: 20px;   
+}
+.foodtext button:hover{
+    
+    border: 3px solid red;
+    background-color: transparent;
+    cursor:pointer;
+    color: black;
+}
+.crd .foodtext{
+    padding: 22px;
+}
+.crd img{
+    width: 100% ;
+    height: 50%;
+}
+.best{
+    display:flex;
+    width: 800px;
+    background-color: darkgray;
+    color: black;
+    margin-top: 33px;
+    margin-left: 530px;
+}
+.best img{
+    width: 55%;
+    height: 44%;
+}
+.best .besttext{
+    padding: 22px;
+}
+.bestText{
+    text-align: center;
+}
+.bestText button{
+    /*width: 130px;
+    height: 33px;
+    */background-color: red;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    font-size: 20px;
+      
+}
+.bestText a{
+    text-decoration: none;
+    color:black;
+}
+
+.bestText button:hover{
+    
+    border: 3px solid red;
+    background-color: transparent;
+    cursor:pointer;
+    color: black;
+}
+.bestText img{
+        border-radius : 50%;
+}
+.order {
+    display: flex;
+    justify-content: center;
+
+}
+.orderText svg{
+    size: 177px;
+    color: red;
+
+}
+.orderText button{
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    font-size: 18px;   
+}
+.orderText button:hover{
+    
+    border: 3px solid red;
+    background-color: transparent;
+    cursor:pointer;
+    color: white;
+}
+.orderText {
+    margin-inline: 100px;
+}
+#cent{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color : gray;
+    color: black;
+    padding: 55px;
+    margin-top: 84px;
+}
+.loginpage{
+    display: none;
+    width: 190px;
+    padding: 22px;
+    background-color:white;
+    position: absolute; 
+    text-align: center;
+    margin-left: 83%;
+    top : 11%;
+    margin-top: 30px;
+
+}
+.loginpage input{
+    width: 170px;
+    padding: 4px;
+    border: 2px solid black;
+    outline: none;
+    margin-top: 11px;   
+}
+.loginpage button{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 13px;
+}
+
+.tracking{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 175px;
+    text-align: center;
+    display: none;
+}
+.tracking img{
+   width: 500px;
+}
+.tracking button{
+    text-align: center;
+    width: 50px;
+    height: 20px;
+    border: none;
+    background-color: red;
+    color:#ffffff;
+}
+.tracking button:hover{
+    
+    border: 3px solid red;
+    background-color: transparent;
+    cursor:pointer;
+    color: white;
+}

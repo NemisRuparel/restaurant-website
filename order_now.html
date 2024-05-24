@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sp!cy Hub - Order Now</title>
+    <link rel="stylesheet" type="text/css" href="order_now.css">
+</head>
+
+<body>
+    <nav id="navigation">
+        <h1>Sp!cy Hub</h1>
+    </nav>
+    <div class="container">
+        <h2>Order Now</h2>
+        <form id="orderForm" class="order-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" placeholder="Enter Your Residential Address" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email " required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phonenumber">Mobile No.:</label>
+                <input type="number" id="number" name="number" placeholder="Enter Your Mobile No. " required>
+            </div>
+            
+            
+            <div class="form-group">
+                <label for="food">Select Food:</label>
+                <select id="food" name="food" onchange="updateTotal()">
+                    <option value="Burger">Burger Combo</option>
+                    <option value="Dosa">Dosa</option>
+                    <option value="Sandwich">Sandwich</option>
+                    <option value="Pizza">Pizza</option>
+                    <option value="Manchurian">Manchurian</option>
+                    <option value="Momos">Momos</option>
+                </select>
+</div>
+
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1" onchange="updateTotal()">
+            </div>
+
+            <div class="form-group">
+                <label for="total">Total Amount ($):</label>
+                <input type="text" id="total" name="total" readonly>
+            </div>
+
+            *Cash On Delivery Only Option Available Right Now 
+            <br><br>
+
+            <div class="form-group">
+                <button type="submit" class="order-button"id="sub_mit">Place Order</button>
+            </div>
+          
+        </form>
+    </div>
+    <script src="order.js"></script>
+</body>
+
+</html>
